@@ -1,0 +1,1 @@
+Place your real project posters, thumbnails, and video files in this folder. Update index.html to reference them.
