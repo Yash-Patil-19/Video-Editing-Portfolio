@@ -1,0 +1,9 @@
+# Raw heavy video footage (exceeds GitHub's 100MB per-file upload limit)
+assets/projects/*.mp4
+*.mp4
+
+# OS & Editor generated files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

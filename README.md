@@ -1,35 +1,64 @@
-# Portfolio Motion & Interaction Upgrade
+# Yash Patil — Video Editor & Visual Storyteller Portfolio
 
-This is an overlay for `Yash-Patil-19/Video-Editing-Portfolio`, the plain HTML/CSS/JavaScript repository. It preserves your current visual direction and adds motion without a framework or animation dependency.
+A high-performance, cinematic creative portfolio showcasing selected works across viral 9:16 reels, multicam podcasts, YouTube narrative edits, motion graphics, and commercial brand films.
 
-## Apply in Antigravity
+Live Website: [https://yash-patil-19.github.io/Video-Editing-Portfolio/](https://yash-patil-19.github.io/Video-Editing-Portfolio/)
 
-1. Download and extract this ZIP.
-2. Open your existing `Video-Editing-Portfolio` folder in Antigravity.
-3. Back up the existing `script.js`.
-4. Copy the included `script.js` over the repository's `script.js`.
-5. Copy `motion.css` into the repository root beside `index.html` and `styles.css`.
-6. Keep `index.html` and `styles.css` in place. The updated script loads `motion.css` automatically.
-7. Run with Live Server, or from the project folder use `python -m http.server 8000` and open `http://localhost:8000`.
+---
 
-## Improvements included
+## ⚡ Highlights & Key Features
 
-- Refined hero headline and supporting-copy entrance animation.
-- Scroll reveal for sections/cards, using IntersectionObserver.
-- Subtle scroll-linked vertical drift and a progress line.
-- Gentle pointer tilt and light-sweep project-card effects on desktop.
-- New individual filters for Motion Graphics and Commercials & Brand Videos (the original six cards previously combined brand work with reels and combined motion with brand in one filter).
-- Filter counts and `aria-pressed` states stay synchronized.
-- Menu state and Escape handling; focus restoration for dialogs.
-- Dialogs can render media if you add optional data attributes to actual cards; media pauses/resets on close.
-- Reduced-motion support, keyboard focus styles and no added packages.
+- **Cinematic Dark Cyberpunk Aesthetic**: Deep obsidian backgrounds (`#06070a`), chromatic glows, and custom typography tailored for high-end visual storytelling.
+- **Interactive Director Showreel**: High-impact showreel card with live timecode HUD, 4K UHD 60FPS badge, and animated audio equalizer spectrum.
+- **Infinite Kinetic Marquee Ribbon**: GPU-accelerated 60fps ticker ribbon highlighting core editorial disciplines.
+- **Floating Ambient Bokeh Particles**: Multi-colored luminous particles drifting dynamically across the backdrop.
+- **Intelligent Studio Assistant Chatbot**: Integrated cyberpunk AI assistant with multi-turn conversational memory, intent scoring, rate estimation, workflow consultation, and direct booking guidance.
+- **Responsive Media & Interactive Modals**: 3D tilt cards, category filters, and media-ready lightbox dialogs with focus trapping and accessibility support.
+- **Direct Mailto Booking**: Wired directly to `yp.atil2040@gmail.com`.
 
-## Add actual media later
+---
 
-For a card, add `data-poster="assets/projects/example.jpg"` and/or `data-video="assets/projects/example.mp4"` to its `<article class="project-card" ...>` element. The existing project tile remains a placeholder unless you supply real assets. For the showreel, add `data-poster` and `data-video` to `.showreel-card`.
+## 📁 Project Structure
 
-No demo/client work was invented. The email address in the existing HTML is still `hello@example.com`; replace it with your real contact address before publishing.
+```
+Video-Editing-Portfolio/
+├── index.html              # Main semantic HTML5 markup & components
+├── styles.css              # Core typography, dark palette & layout styles
+├── motion.css              # Keyframes, floating animations & responsive motion
+├── script.js               # Interactive controls, chatbot brain & modal handlers
+├── .gitignore              # Ignores large raw video files (>100MB)
+└── assets/
+    └── projects/           # Optimized project posters, hooks & avatar media
+```
 
-## Verification
+---
 
-The JavaScript can be syntax-checked with `node --check script.js`. Browser interaction and responsive layouts should then be tested locally at desktop and mobile widths. This overlay has not been run in an actual browser in this environment.
+## 🚀 Running Locally
+
+You can preview the portfolio using any standard local HTTP server:
+
+```bash
+# Using Python
+python -m http.server 5500
+
+# Or with Node.js npx
+npx serve .
+```
+
+Open `http://localhost:5500` in your web browser.
+
+---
+
+## 🎥 Media & Video Hosting Notes
+
+- Image posters, thumbnails, and avatars are committed directly to this repository.
+- Raw high-bitrate `.mp4` video files exceed GitHub's strict 100MB per-file upload limit and are excluded via `.gitignore`.
+- For production deployment on GitHub Pages, video cards can stream directly from YouTube embeds, Vimeo, Cloudinary, AWS S3, or compressed web-optimized clips.
+
+---
+
+## 📬 Contact & Inquiries
+
+- **Editor**: Yash Patil
+- **Email**: [yp.atil2040@gmail.com](mailto:yp.atil2040@gmail.com)
+- **Specialties**: Short-Form Viral Hooks, Long-Form Pacing, Dynamic Sound Design, Motion Graphics
