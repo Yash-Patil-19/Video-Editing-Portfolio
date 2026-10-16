@@ -1,6 +1,17 @@
-# Raw heavy video footage (exceeds GitHub's 100MB per-file upload limit)
-assets/projects/*.mp4
+# Raw backup & heavy master video footage
+assets/masters_backup/
 *.mp4
+assets/projects/*.mp4
+
+# Explicitly track the 8 active portfolio project videos and reels
+!assets/projects/showreel.mp4
+!assets/projects/retention-short-form-edit.mp4
+!assets/projects/dynamic-podcast-highlight.mp4
+!assets/projects/youtube-5things.mp4
+!assets/projects/motion-title-design.mp4
+!assets/projects/startup-commercial-film.mp4
+!assets/projects/viral-hook-rhythm-cut.mp4
+!assets/projects/beat-synced-visual-reel.mp4
 
 # OS & Editor generated files
 .DS_Store
